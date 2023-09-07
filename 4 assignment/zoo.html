@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name = "author" content="Yakov Koshavenko">
+	<meta name="description" content = "A webpage containing address and hours of a book store">
+	<title>Zoo Photos</title>
+	<link rel = "stylesheet" href="styles.css">
+	<script>
+		//sets the image to a tiger and edits the alt text
+		function tiger(){
+			var img;
+			img=document.getElementById("smallImage")
+			img.src = "images/tiger.jpg";
+			img.alt = "Image of a tiger";
+		}
+		//sets the image to a ostrich and edits the alt text
+		function ostrich(){
+			var img;
+			img=document.getElementById("smallImage")
+			img.src = "images/ostrich.jpg";
+			img.alt = "Image of a ostrich";
+		}
+		//sets the image to a giraffe and edits the alt text
+		function giraffe(){
+			var img;
+			img=document.getElementById("smallImage")
+			img.src = "images/giraffe.jpg";
+			img.alt = "Image of a giraffe";
+		}
+		//sets the image to a panda and edits the alt text
+		function panda(){
+			var img;
+			img=document.getElementById("smallImage")
+			img.src = "images/panda.jpg";
+			img.alt = "Image of a panda";
+		}
+		//sets the image to a elephant and edits the alt text
+		function elephant(){
+			var img;
+			img=document.getElementById("smallImage")
+			img.src = "images/elephant.jpg";
+			img.alt = "Image of a elephant";
+		}
+		//shows the help text
+		function help(){
+			var help;
+			var helptext;
+			help = document.getElementById("help");
+			helptext="To recieve help, please call (916)890-8561 or email koshy28@uwgb.edu";
+			help.innerHTML=helptext;
+		}
+		//hides the help text
+		function hide(){
+			var help;
+			help = document.getElementById("help");
+			help.innerHTML="";
+		}
+	</script>
+</head>
+
+<body>
+	<h1 class = "button-center">Zoo Animals</h1>
+	<hr>
+	<img id="smallImage" src="images/tiger.jpg" alt="Image of a tiger"
+		onmouseover="this.style='width:440px;height:360px;'"
+		onmouseout="this.style='width:220px;height:180px;'"
+		onclick="alert('nothing to see here');">
+	<br>
+	<div class = "button-center">
+		<input type="button" value="Tiger" onclick="tiger();">
+		<input type="button" value="Ostrich" onclick="ostrich();">
+		<input type="button" value="Giraffe" onclick="giraffe();">
+		<input type="button" value="Panda" onclick="panda();">
+		<input type="button" value="Elephant" onclick="elephant();">
+	</div>
+	<hr>
+	<div class="button-center">
+		<input type="button" value="Help" onclick="help();">
+		<input type="button" value="Hide" onclick="hide();">
+		<p id="help">
+		</p>
+</body>

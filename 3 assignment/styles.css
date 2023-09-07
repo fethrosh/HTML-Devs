@@ -1,0 +1,87 @@
+h1 {
+	text-align:center;
+}
+hr {
+	width: 50%;
+}
+table, th, td {
+	border: thin solid blue;
+}
+thead th {
+	background-color:#17A589;
+}
+tbody th {
+	background-color:#177aa5;
+	color: black;
+}
+ol {
+	text-align: left;
+	list-style-type: decimal;
+}
+ol ol {
+	list-style-type: lower-roman;
+}
+.seperator{
+	width: 90%;
+}
+.sport{
+	font-family: "times new roman", serif;
+	text-align: left;
+}
+.quote{
+	font-family: georgia, serif;
+	font-style:italic;
+	text-align: right;
+}
+.poem{
+	font-family: luminari, fantasy;
+	text-align: center;
+}
+.misc{
+	text-align: center;
+}
+.author{
+	font-family: helvetica, serif;
+}
+.food {
+	text-align: left;
+}
+.rating {
+	text-align: center;
+}
+.red {
+	color: red;
+}
+.light-green {
+	color:  #DAF7A6;
+}
+.green {
+	color: green;
+}
+.gold {
+	color: #C5B358;
+}
+.purple {
+	color: purple;
+}
+.honey {
+	color: orange;
+}
+.red-back {
+	background-color: red;
+}
+.blue-back {
+	background-color: blue;
+}
+.green-back {
+	background-color: green;
+}
+.gold-back {
+	background-color: #C5B358;
+}
+.purple-back {
+	background-color: purple;
+}
+.honey-back {
+	background-color: orange;
+}

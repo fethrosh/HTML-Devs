@@ -1,0 +1,149 @@
+@font-face{
+	font-family: sketch;
+	src: url("font/Branda-yolq.woff2") format("woff2");
+}
+
+h1 {
+	text-align:center;
+	font-family: sketch,serif;
+}
+
+hr {
+	width: 50%;
+}
+
+table, th, td {
+	border: thin solid blue;
+}
+
+thead th {
+	background-color:#17A589;
+}
+
+tbody th {
+	background-color:#177aa5;
+	color: black;
+}
+
+ol {
+	text-align: left;
+	list-style-type: decimal;
+}
+
+ol ol {
+	list-style-type: lower-roman;
+}
+
+img{
+	width: 40%;
+	height: 40%;
+}
+
+video{
+	
+}
+
+.links{
+	text-align: center;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+	
+.seperator{
+	width: 90%;
+}
+
+.movie-head{
+	text-align: center;
+}
+
+.HTTYD{
+	text-align: center;
+}
+
+.sport{
+	font-family: "times new roman", serif;
+	text-align: left;
+	color: black;
+}
+
+.quote{
+	font-family: georgia, serif;
+	font-style:italic;
+	text-align: right;
+}
+
+.poem{
+	font-family: luminari, fantasy;
+	text-align: center;
+}
+
+.misc{
+	text-align: center;
+}
+
+.author{
+	font-family: helvetica, serif;
+}
+
+.food {
+	text-align: left;
+}
+
+.rating {
+	text-align: center;
+}
+
+.red {
+	color: red;
+}
+
+.light-green {
+	color:  #DAF7A6;
+}
+
+.green {
+	color: green;
+}
+
+.gold {
+	color: #C5B358;
+}
+
+.purple {
+	color: purple;
+}
+
+.honey {
+	color: orange;
+}
+
+.red-back {
+	background-color: red;
+}
+
+.blue-back {
+	background-color: blue;
+}
+
+.green-back {
+	background-color: green;
+}
+
+.gold-back {
+	background-color: #C5B358;
+}
+
+.purple-back {
+	background-color: purple;
+}
+
+.honey-back {
+	background-color: orange;
+}
